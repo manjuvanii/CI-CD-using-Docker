@@ -1,5 +1,5 @@
 
 #sudo docker login --username=$username --password=$password
 sudo docker logout
-sudo docker login -u$username -p$password
+cat ~/password.txt | sudo docker login --username=$username --password-stdin
 sudo docker push yedukondalu212/java-app-demo:latest
