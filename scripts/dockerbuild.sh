@@ -1,2 +1,2 @@
-sudo docker build -t samplewebapp .
-sudo docker tag samplewebapp yedukondalu212/samplejavaapp:latest
+sudo docker build -t javawebapp .
+sudo docker tag javawebapp yedukondalu212/java-app-demo:latest
